@@ -7,7 +7,7 @@ PYTHON=$(VENV)/bin/$(PYTHON_VERSION)
 venv: # Create Virtual Environment
 	$(PYTHON_VERSION) -m venv $(VENV)
 
-install: # Install Dependencies
+install: # Install Package Dependencies
 	$(PYTHON) -m pip install --upgrade pip
 	$(PYTHON) -m pip install --no-cache-dir -r requirements.txt
 	$(PYTHON) -m ipykernel install --user --name=$(VENV)
