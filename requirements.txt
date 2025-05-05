@@ -1,0 +1,10 @@
+ipykernel
+transformers
+torch
+torchvision
+torchaudio
+sentence-transformers
+tiktoken
+pandas
+numpy
+matplotlib
