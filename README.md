@@ -18,4 +18,5 @@ make install
 1. Statistics Review
 2. Machine Learning Review
 3. LeetCode Review
+4. GenAI Review
 ```
